@@ -10,9 +10,19 @@
 		58195DD52BD03542007A5BC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58195DD42BD03542007A5BC6 /* AppDelegate.swift */; };
 		58195DD72BD03542007A5BC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58195DD62BD03542007A5BC6 /* SceneDelegate.swift */; };
 		58195DD92BD03542007A5BC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58195DD82BD03542007A5BC6 /* ViewController.swift */; };
-		58195DDC2BD03542007A5BC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58195DDA2BD03542007A5BC6 /* Main.storyboard */; };
 		58195DDE2BD03543007A5BC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58195DDD2BD03543007A5BC6 /* Assets.xcassets */; };
 		58195DE12BD03543007A5BC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58195DDF2BD03543007A5BC6 /* LaunchScreen.storyboard */; };
+		58195DEA2BD036F1007A5BC6 /* KumbhSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58195DE82BD036F1007A5BC6 /* KumbhSans-Bold.ttf */; };
+		58195DEB2BD036F1007A5BC6 /* KumbhSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58195DE92BD036F1007A5BC6 /* KumbhSans-Regular.ttf */; };
+		58195DF12BD0403D007A5BC6 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58195DF02BD0403D007A5BC6 /* TextView.swift */; };
+		58195DF32BD0A346007A5BC6 /* CarouselImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58195DF22BD0A346007A5BC6 /* CarouselImageView.swift */; };
+		58195DF52BD1D4D0007A5BC6 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58195DF42BD1D4D0007A5BC6 /* DescriptionView.swift */; };
+		58787E072BD6C1770009AC51 /* CustomStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58787E062BD6C1770009AC51 /* CustomStepper.swift */; };
+		58787E092BD80DE80009AC51 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58787E082BD80DE80009AC51 /* ScrollView.swift */; };
+		58787E0E2BD813770009AC51 /* CALayer-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58787E0D2BD813770009AC51 /* CALayer-Ext.swift */; };
+		58787E142BDB1ACB0009AC51 /* CartModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58787E132BDB1ACB0009AC51 /* CartModalView.swift */; };
+		58787E162BDB1CE80009AC51 /* CheckoutModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58787E152BDB1CE80009AC51 /* CheckoutModal.swift */; };
+		58787E182BDBFA9D0009AC51 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58787E172BDBFA9D0009AC51 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +30,20 @@
 		58195DD42BD03542007A5BC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58195DD62BD03542007A5BC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		58195DD82BD03542007A5BC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		58195DDB2BD03542007A5BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58195DDD2BD03543007A5BC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58195DE02BD03543007A5BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58195DE22BD03543007A5BC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58195DE82BD036F1007A5BC6 /* KumbhSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KumbhSans-Bold.ttf"; sourceTree = "<group>"; };
+		58195DE92BD036F1007A5BC6 /* KumbhSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KumbhSans-Regular.ttf"; sourceTree = "<group>"; };
+		58195DF02BD0403D007A5BC6 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		58195DF22BD0A346007A5BC6 /* CarouselImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselImageView.swift; sourceTree = "<group>"; };
+		58195DF42BD1D4D0007A5BC6 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		58787E062BD6C1770009AC51 /* CustomStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStepper.swift; sourceTree = "<group>"; };
+		58787E082BD80DE80009AC51 /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		58787E0D2BD813770009AC51 /* CALayer-Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer-Ext.swift"; sourceTree = "<group>"; };
+		58787E132BDB1ACB0009AC51 /* CartModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartModalView.swift; sourceTree = "<group>"; };
+		58787E152BDB1CE80009AC51 /* CheckoutModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutModal.swift; sourceTree = "<group>"; };
+		58787E172BDBFA9D0009AC51 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,57 @@
 		58195DD32BD03542007A5BC6 /* ecommerce-product-page */ = {
 			isa = PBXGroup;
 			children = (
+				58787E0C2BD813640009AC51 /* Extensions */,
+				58195DED2BD03C1E007A5BC6 /* CustomViews */,
 				58195DD42BD03542007A5BC6 /* AppDelegate.swift */,
 				58195DD62BD03542007A5BC6 /* SceneDelegate.swift */,
 				58195DD82BD03542007A5BC6 /* ViewController.swift */,
-				58195DDA2BD03542007A5BC6 /* Main.storyboard */,
 				58195DDD2BD03543007A5BC6 /* Assets.xcassets */,
 				58195DDF2BD03543007A5BC6 /* LaunchScreen.storyboard */,
 				58195DE22BD03543007A5BC6 /* Info.plist */,
+				58787E192BDBFAA30009AC51 /* Model */,
+				58195DEC2BD036F8007A5BC6 /* Fonts */,
 			);
 			path = "ecommerce-product-page";
+			sourceTree = "<group>";
+		};
+		58195DEC2BD036F8007A5BC6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				58195DE82BD036F1007A5BC6 /* KumbhSans-Bold.ttf */,
+				58195DE92BD036F1007A5BC6 /* KumbhSans-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		58195DED2BD03C1E007A5BC6 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				58195DF02BD0403D007A5BC6 /* TextView.swift */,
+				58195DF22BD0A346007A5BC6 /* CarouselImageView.swift */,
+				58195DF42BD1D4D0007A5BC6 /* DescriptionView.swift */,
+				58787E062BD6C1770009AC51 /* CustomStepper.swift */,
+				58787E082BD80DE80009AC51 /* ScrollView.swift */,
+				58787E132BDB1ACB0009AC51 /* CartModalView.swift */,
+				58787E152BDB1CE80009AC51 /* CheckoutModal.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		58787E0C2BD813640009AC51 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				58787E0D2BD813770009AC51 /* CALayer-Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		58787E192BDBFAA30009AC51 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				58787E172BDBFA9D0009AC51 /* DataModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +187,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58195DEB2BD036F1007A5BC6 /* KumbhSans-Regular.ttf in Resources */,
+				58195DEA2BD036F1007A5BC6 /* KumbhSans-Bold.ttf in Resources */,
 				58195DE12BD03543007A5BC6 /* LaunchScreen.storyboard in Resources */,
 				58195DDE2BD03543007A5BC6 /* Assets.xcassets in Resources */,
-				58195DDC2BD03542007A5BC6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,21 +203,22 @@
 			files = (
 				58195DD92BD03542007A5BC6 /* ViewController.swift in Sources */,
 				58195DD52BD03542007A5BC6 /* AppDelegate.swift in Sources */,
+				58195DF32BD0A346007A5BC6 /* CarouselImageView.swift in Sources */,
+				58787E072BD6C1770009AC51 /* CustomStepper.swift in Sources */,
+				58195DF52BD1D4D0007A5BC6 /* DescriptionView.swift in Sources */,
+				58787E182BDBFA9D0009AC51 /* DataModel.swift in Sources */,
+				58787E092BD80DE80009AC51 /* ScrollView.swift in Sources */,
+				58787E0E2BD813770009AC51 /* CALayer-Ext.swift in Sources */,
 				58195DD72BD03542007A5BC6 /* SceneDelegate.swift in Sources */,
+				58787E162BDB1CE80009AC51 /* CheckoutModal.swift in Sources */,
+				58195DF12BD0403D007A5BC6 /* TextView.swift in Sources */,
+				58787E142BDB1ACB0009AC51 /* CartModalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		58195DDA2BD03542007A5BC6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				58195DDB2BD03542007A5BC6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		58195DDF2BD03543007A5BC6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +356,6 @@
 				INFOPLIST_FILE = "ecommerce-product-page/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +383,6 @@
 				INFOPLIST_FILE = "ecommerce-product-page/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
